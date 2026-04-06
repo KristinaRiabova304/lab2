@@ -41,10 +41,10 @@
 ## 📊 Діаграми
 
 ### 🔹 Діаграма компонентів системи
-(Додано у Miro)
+ Miro
 
 ### 🔹 Діаграма потоку даних
-(Додано у Miro)
+ Miro
 
 ---
 
@@ -104,18 +104,18 @@ npm run dlq
 
 Також реалізовано:
 
-механізм retry
-Dead Letter Queue
-обробку помилок
-базове трасування
+- механізм retry
+- Dead Letter Queue
+- обробку помилок
+- базове трасування
 
 У проєкті використано event-driven підхід, але не повний event sourcing, оскільки джерелом істини залишається поточний стан сутностей.
 ---
 
 ## Технології
 
-Node.js
-Express
-RabbitMQ
-amqplib
-OpenTelemetry (traceId)
+- Node.js
+- Express
+- RabbitMQ
+- amqplib
+- OpenTelemetry (traceId)
