@@ -1,0 +1,26 @@
+{
+  "name": "gamequest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "consumer": "node consumer.js",
+    "dlq": "node dlq-listener.js"
+  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.1",
+    "@opentelemetry/auto-instrumentations-node": "^0.72.0",
+    "@opentelemetry/sdk-node": "^0.214.0",
+    "amqplib": "^1.0.3",
+    "axios": "^1.13.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "supertest": "^7.2.2"
+  }
+}
