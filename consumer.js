@@ -36,6 +36,8 @@ async function startConsumer() {
         throw new Error('Random processing error');
       }
 
+      //throw new Error('Forced error for DLQ demonstration');
+
       await fakeWork(event);
 
       ch.ack(msg);
